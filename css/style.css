@@ -105,6 +105,7 @@ html {
     font-weight: 600;
     font-size: 16px;
     border-radius: 5px;
+    line-height: 28px;
 }
 
 .menu_product a:first-child {
@@ -113,8 +114,18 @@ html {
 }
 
 .menu_product a:nth-child(2) {
-    border-right: 1px solid #01875F;
-    border-radius: 0;
+    
+    position: relative;
+}
+
+.menu_product a:nth-child(2)::after{
+    content: '';
+    width: 1px;
+    height: 40px;
+    background-color: #01875F;
+    position: absolute;
+    top: 10px;
+    right: 0;
 }
 
 .search {
