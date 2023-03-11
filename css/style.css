@@ -310,14 +310,14 @@ input[type="email"] {
     font-weight: 600;
 }
 
-.btnSub:hover{
+.btnSub:hover {
     background-color: #bdc0c6;
     color: #01875f;
     border: none;
     border-radius: none;
 }
 
-.connect p{
+.connect p {
     margin: 24px 0;
 }
 
@@ -331,15 +331,15 @@ input[type="email"] {
 .img1:hover,
 .img2:hover,
 .img3:hover,
-.img4:hover{
+.img4:hover {
     opacity: 0.6;
 }
 
-.bottom-text{
+.bottom-text {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
 }
 
 .bottom-text:nth-child(1) {
     list-style-type: none;
-} 
+}
